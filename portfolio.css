@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nb{
+    background-color: #B784B7;
+    color: white;
+    height: 10vh;
+    border: 3px solid black;
+}
+.nb ul{
+    list-style: none;
+    display: flex;
+}
+.nb ul li{
+    /* border: 2px solid red; */
+    margin: 20px 60px;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.nb ul li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #B784B7;
+}
+.hi {
+    position: absolute;
+    margin-top: 12vh;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 40px;
+    border-top: 5px solid grey;
+    border-bottom:5px solid grey ;
+    width: 98.7vw;
+    height: 85vh;
+    justify-items: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    opacity: 1;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.t {
+    padding-top: 120px;
+}
+.con:hover .hi{
+    opacity: 0;
+}
+.con:hover .hov{
+    opacity: 1;
+}
+.con{
+    
+    background-color: #E493B3;
+}
+.hov {
+    padding-top: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 12vh;
+    transition: opacity 0.3s ease;
+    width: 98.7vw;
+    height: 80vh;
+    z-index: 2; 
+    display: flex;
+    opacity: 0;
+    background-color: #E493B3;
+}
+.one{
+    height: 27vh;
+}
+.name {
+    font-size: 26px;
+    text-align: left;
+    word-spacing: 15px;
+    width: 70vw;
+    border-radius: 10px;
+}
+
+.text {
+    margin: 10px 2px;
+    background-color: #E493B3;
+}
+
+.photo {
+
+    background-image: url('MEEE.jpg');
+    background-size: cover; /* This property ensures the image covers the entire div */
+    background-position: center;
+    margin-top: 1vh;
+    border: 2px solid yellow;
+    height: 400px;
+    background-color: #E493B3;
+    width: 500px;
+    margin-left: 30px;
+    border-radius: 2000px;
+}
+.two1{
+
+    background-color: #FF90BC;
+    border-radius: 10px;
+}
+.two{
+    padding: 2vh 4vh;
+    display: flex;
+    height: 50vh;
+    width: auto;
+    /* margin-top: ; */
+}
+.edu{
+    width: 50vw;
+    font-size: 25px;
+}
+.skills{
+    font-size: 25px;
+    margin-left:7vw;
+    width: 25vw;
+    height: 70vh;
+}
+.three{
+    height: 99vh;
+    width: 100%;
+}
+.achi{
+    margin: 5px;
+    border: 2px solid black;
+    height: 50vh;
+    text-align: center;
+    font-size: 25px;
+}
+.achi h4{
+    font-size: 35px;
+}
+.ach:hover h4:hover{
+    text-decoration: underline;
+}
+.expe{
+    padding: 2vh 4vh;
+    background-color: #C7DCA7;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid green;
+    height: 40vh;
+    text-align: center;
+    font-size: 30px;
+}
+.proj{
+    padding: 2vh 4vh;
+    border-radius: 10px;
+    /* border: 2px solid pink; */
+    height: 46vh;
+}
+.icon{
+    height: 49px;
+}
+
+.icon:hover{
+    height: 60px;
+}
+.info{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.Links a{
+    margin-right: 20px;
+}
+footer{
+    margin-top: 10vh;
+    background-color: #D0BFFF;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vh;
+}
+.link div{
+    border: 5px solid black;
+    padding: 3px 3px;
+    border-radius: 20px;
+    margin: 0px 40px;
+}
+.te{
+    font-family: Georgia, serif;
+    text-decoration: underline dashed;
+    font-weight: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.abo{
+    margin-top: 65vh;
+    text-align: center;
+    font-size: 50px;
+}
+.skills ul{
+    list-style: decimal;
+}
+
+.proj{
+    padding-bottom: 100px;
+    background-color: #FFF78A;
+    margin-bottom: 0px;
+}
+
+.expe h4{
+    font-family: Georgia, serif;
+    font-weight: 20px;
+    font-size: 30px;
+}
+.expe:hover{
+    text-decoration: underline dotted;
+}
+.li{
+    margin: 2px 0px;
+    height: 30vh;
+    border: 3px solid black;
+    position: relative;
+    animation: upd 1s ease-in-out 1ms infinite alternate ;
+    /* top: 0vh; */
+    /* top: 5vh; */
+    /* top: 15vh; */
+}
+@keyframes upd {
+    0%{
+        top: 0vh;
+    }
+    50%{
+        top: 5vh;
+    }
+    100%{
+        top: 15vh;
+    }
+}
+.line{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 50px;
+    border: 5px solid #F8CBA6;
+    width: 90vw;
+    position: relative;
+    left: 4vw;
+    animation: sideway 0.9s ease-in-out 1s infinite alternate;
+}
+@keyframes sideway {
+    0%{
+        left: 0vw;
+    }
+    50%{
+        left: 4vw;
+    }
+    100%{
+        left: 7vw;
+    }
+
+}
+.n{
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: 80px;
+    font-style: italic;
+}
+.tex{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.link div:hover{
+    background-color: #F2CD5C;
+}
+.an{
+    color: white;
+    text-decoration: none;
+}
+.an:hover{
+    color: #B784B7;
+}
